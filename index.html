@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen">
+        <section class="px-6 md:px-20 lg:px-50 py-2 ">
+            <div class="" style="box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);">
+                <div class="flex items-center justify-between pt-8 pb-4 px-10 bg-white " >
+                    <h1 class="font-bold text-xl">Notifications <span id="number" class="bg-[#1E3A8A] text-white px-2 rounded-sm">3</span></h1>
+                    <button id="mark-all-btn" class="text-[#1E3A8A] font-semibold">Mark all as read</button>
+                </div>
+            <div class="px-10">
+                <!-- div-1 -->
+                <div class="bg flex items-center gap-2 bg-[#F3F8FC] rounded-md mb-2 p-2">
+                    <img class="w-10 h-10" src="assets/images/avatar-mark-webber.webp" alt="">
+                    <div>
+                        <h1> <a class="font-bold " href="#">Mark Webber </a><span class="text-[#9BA3B1]">reacted to your recent post</span> <a class="text-[#1E3A8A] font-bold" href="#">My first tournament today!</a> 
+                           <span class="red-dot inline-block rounded-full bg-[#EF4C4C] h-2 w-2"></span>
+                        </h1>
+                        <p class="text-sm text-[#9BA3B1] ">1m ago</p>
+                    </div>
+                </div>
+
+                <!-- div-2 -->
+                <div class="bg flex items-center p-2 gap-2 bg-[#F3F8FC] rounded-md mb-2">
+                    <img class="w-10 h-10" src="assets/images/avatar-angela-gray.webp" alt="">
+                    <div>
+                        <h1><span class="font-bold text-[#1E3A8A]"> Angela Gray </span><span class="text-[#9BA3B1]">followed you</span>
+                            <span class="red-dot inline-block rounded-full bg-[#EF4C4C] h-2 w-2"></span></h1>
+
+                        <p class="text-sm text-[#9BA3B1]">5m ago</p>
+                    </div>
+                </div>
+
+                <!-- div-3 -->
+                <div class="bg flex items-center p-2 gap-2 bg-[#F3F8FC] rounded-md mb-2 ">
+                    <img class="w-10 h-10" src="assets/images/avatar-jacob-thompson.webp" alt="">
+                    <div>
+                        <h1><span class="font-bold ">  Jacob Thompson </span><span class="text-[#9BA3B1]">has joined your group <span class="font-bold text-[#1E3A8A]">Chess Club</span></span>
+                            <span class="red-dot inline-block rounded-full bg-[#EF4C4C] h-2 w-2"></span></h1>
+                        <p class="text-sm text-[#9BA3B1]">1 day ago</p>
+                    </div>
+                </div>
+
+                <!-- div-4 -->
+                <div class=" px-2 pt-1 gap-2  rounded-md mb-2 flex items-start w-full">
+                 <div class="">
+                       <img class="w-10 h-10" src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+                    </div>
+                    
+                    <div class="w-full">
+                        <h1><span class="font-bold ">Rizky Hasanuddin </span> <span class="text-[#9BA3B1]">sent you a private message</span>
+</h1>
+                        <p class="text-sm text-[#9BA3B1]">5 day ago</p>
+                         
+                
+                        <div class="bg-gray-100 border border-none rounded-md p-3 mt-3 text-gray-700 ">
+                            <p class="text-[#9BA3B1]">Hello, thanks for setting up the Chess Club. I've been a member for a  few weeks now and 
+                            I'm already having lots of fun and improving my game.</p>
+                        </div>
+                   </div>
+                </div>
+
+                <!-- div-5 -->
+                 <div class="flex items-center  rounded-md mb-2 justify-between">
+                   <div class="flex items-center p-2 gap-2">
+                     <img class="w-10 h-10" src="assets/images/avatar-kimberly-smith.webp" alt="">
+                    <div>
+                        <h1><span class="font-bold "> Kimberly Smith </span> <span class="text-[#9BA3B1]">commented on your picture</span></h1>
+                        <p class="text-sm text-[#9BA3B1]">1 week ago</p>
+                    </div>
+                   </div>
+                   <div>
+                    <img class="w-15 h-15" src="assets/images/image-chess.webp" alt="">
+                   </div>
+                </div>
+                <!-- div-6 -->
+                 <div class="flex items-start p-2 gap-2 rounded-md mb-2">
+                        <div>
+                            <img class="w-10 h-10" src="assets/images/avatar-nathan-peterson.webp" alt="">
+
+                        </div>                    
+                 <div>
+                    <h1><span class="font-bold ">  Nathan Peterson </span> <span class="text-[#9BA3B1]">reacted to your recent post </span> <span class="text-[#626A78] font-bold">5 end-game strategies to increase your win rate.</span></h1>
+                        <div>
+                            <p class="text-sm text-[#9BA3B1]">2 week ago</p>
+                        </div>
+                 </div>
+                </div>
+                <!-- div-7 -->
+                <div class="flex items-center  rounded-md mb-2  p-2 gap-2">
+                     <img class="w-10 h-10" src="assets/images/avatar-kimberly-smith.webp" alt="">
+                    <div>
+                        <h1><span class="font-bold ">Anna Kim </span> <span class="text-[#9BA3B1]">left the group <span class="text-[#626A78] font-bold">Chess Club </span></span></h1>
+                        <p class="text-sm text-[#9BA3B1]">2 week ago</p>
+                    </div>
+                </div>
+             
+            </div>
+            
+            </div>
+        </section>
+        <script src="script.js"></script>
+</body>
+</html>
